@@ -1,7 +1,84 @@
 body {
-    font-family: Lato, sans-serif;
+  font-family: Lato, sans-serif;
 }
 
 div#pokeTypeModal {
-    display: none;
+  display: none;
+}
+
+html, body{
+  height: 100%;
+}
+
+body {
+  background-color: black;
+}
+
+.background {
+  position: relative;
+  margin-top: -1%;
+  margin-left: 25%;
+  width: 50%;
+  height: 100%;
+  background-image: url('https://raw.githubusercontent.com/Superviral/Pokemon-GO-App-Assets-and-Images/master/App%20Converted%20Images/GroundTexture.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.compass{
+  position: absolute;
+  max-width: 6%;
+  height: auto;
+  padding-top: 12%;
+  padding-left: 90%;
+}
+
+#character{
+  position: absolute;
+  max-width: 10%;
+  height: auto;
+  padding-top: 80%;
+  padding-left: 5%;
+}
+
+#pokeball{
+  position: absolute;
+  max-width: 20%;
+  height: auto;
+  padding-top: 75%;
+  padding-left: 39%;
+}
+
+#pokeBackground{
+  position: absolute;
+  width: 30%;
+  padding-top: 85%;
+  padding-left: 70%;
+}
+
+#Pokedex, #Shop, #Pokemon, #Items, #PokeType{
+  position: absolute;
+  max-width: 8%;
+}
+
+#Pokedex, #Pokemon{
+  padding-left: 15%;
+}
+
+#Items, #PokeType{
+  padding-left: 75%;
+}
+
+#Pokedex, #PokeType{
+  padding-top: 45%;
+}
+
+#Pokemon, #Items{
+  padding-top: 75%;
+}
+
+#Shop{
+  padding-top: 60%;
+  padding-left: 45%;
 }
