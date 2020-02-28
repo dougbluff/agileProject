@@ -82,3 +82,7 @@ body {
   padding-top: 60%;
   padding-left: 45%;
 }
+
+.modal-content {
+	color: white;
+}
